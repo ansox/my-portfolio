@@ -1,4 +1,9 @@
 const typographyVariants = {
+  mainTitle: {
+    fontSize: '90px',
+    fontWeight: '400',
+    lineHeight: '108px',
+  },
   // [title]
   title: {
     fontSize: '32px',
@@ -12,9 +17,9 @@ const typographyVariants = {
   },
   // [subTitle]
   subTitle: {
-    fontSize: '24px',
-    fontWeight: '500',
-    lineHeight: 1.25, // 125%
+    fontSize: '48px',
+    fontWeight: '300',
+    lineHeight: '57.6px', // 125%
   },
   // [paragraph1]
   paragraph1: {

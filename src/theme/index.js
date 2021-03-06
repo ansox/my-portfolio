@@ -4,6 +4,6 @@ export default {
   colors: {
     primary: '#0070f3',
   },
-  fontFamily: '\'Fira Sans\', \'Fira Sans Condensed\', sans-sarifa',
+  fontFamily: '\'Fira Sans Condensed\', sans-sarifa',
   typographyVariants,
 };
