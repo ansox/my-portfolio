@@ -1,5 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import breakpointsMedia from '../../theme/utils/breakpointMedia';
 import { TextStyleVariantsMap } from '../foundation/Text';
 
 const StyledCover = styled.div`
@@ -8,13 +9,26 @@ const StyledCover = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
   width:100%;
   height:600px;
 `;
 
 StyledCover.Title = styled.h1`
   margin: 0;
-  ${TextStyleVariantsMap.mainTitle}
+  text-align: center;
+  ${breakpointsMedia({
+    xs: css`
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 1.25;
+    `,
+    md: css`
+      font-size: 90px;
+      font-weight: 400;
+      line-height: 1.25;
+    `,
+  })}
 `;
 
 StyledCover.SubTitle = styled.h2`
