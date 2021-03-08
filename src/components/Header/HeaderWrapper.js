@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import breakpointsMedia from '../../theme/utils/breakpointMedia';
 
 const HeaderWrapper = styled.div`
-  background-color: #FFF8E6;
+  background-color: ${({ theme }) => theme.colors.secondary};
   width: 100%;
   height: 67px;
   display: flex;

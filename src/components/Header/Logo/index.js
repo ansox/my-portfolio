@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import breakpointsMedia from '../../../theme/utils/breakpointMedia';
 
 const LogoWrapper = styled.div`
-  background-color: #E9C46A;
+  background-color: ${({ theme }) => theme.colors.primary};
   height: 100%;
   display: flex;
   align-items: center;

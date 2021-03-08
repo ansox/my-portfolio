@@ -10,7 +10,8 @@ export const breakpoints = {
 
 export default {
   colors: {
-    primary: '#0070f3',
+    primary: '#E9C461',
+    secondary: '#FFF8E6',
   },
   fontFamily: '\'Fira Sans Condensed\', sans-sarifa',
   typographyVariants,
