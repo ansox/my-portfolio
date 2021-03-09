@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 import breakpointsMedia from '../../../../theme/utils/breakpointMedia';
 
 const CardImageWrapper = styled.div`
+  
 
   ${breakpointsMedia({
     xs: css`
